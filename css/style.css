@@ -14,7 +14,7 @@ body {
 
 ul {
     list-style-type: none;
-    
+           
 }
 
 a {
@@ -43,25 +43,26 @@ img {
 }
 
 .navbar {
-    background-color: #047aed;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     height: 70px;
-}
+    }
 
 .navbar ul {
     display: flex;
 }
 
 .navbar a {
-    color: #fff;
+    color: #333;
     padding: 10px;
     margin: 0 px;
 
 }
 
 .navbar a:hover {
-    border-bottom: 2px #fff solid;
-    border-right: 2px #fff solid;
+    border-bottom: 2px green solid;
+    color: green;
+    border-radius: 15%;
 }
 
 .navbar .flex {  
