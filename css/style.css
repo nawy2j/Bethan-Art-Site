@@ -7,12 +7,13 @@
 }
 
 body {
-    font-family: 'joesfin', sans-serif;
+    
     color: #333;
     line-height: 1.6;
 }
 
 ul {
+    font-family: 'Aboreto', cursive;
     list-style-type: none;
            
 }
@@ -25,7 +26,12 @@ a {
 h1 {
     font-weight: 300;
     line-height: 1.2;
-    margin: 10px 0;
+    margin: 10px 0;    
+}
+
+.logo {
+    font-family: 'Aboreto', cursive;
+    font-weight: 300;
 }
 
 h2 {
@@ -82,3 +88,55 @@ img {
     align-items: center;
     height: 100%;
 }
+
+.showcase-text {
+    text-align: center;      
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .gallery {    
+    margin: 0 auto;    
+  }
+
+  .gallery a:hover {
+    background-color: red;
+    border-radius: 15px;
+  }
+
+
