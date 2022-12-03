@@ -27,17 +27,21 @@ h1 {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;    
-}
-
-.logo {
     font-family: 'Aboreto', cursive;
-    font-weight: 300;
 }
 
+
+#logo {
+    font-family:'Aboreto', cursive;
+    font-weight: 400 !important;
+}
 h2 {
+    font-family: 'Aboreto', cursive;
     font-weight: 200;
     line-height: 1.2;
     margin: 10px 0;
+    padding: 6px;
+    border-radius: 5%;
 }
 
 p {
@@ -49,26 +53,44 @@ img {
 }
 
 .navbar {
-    background-color: #fff;
+    background: linear-gradient(white, whitesmoke);
     color: #333;
-    height: 70px;
-    }
+    max-height: 300px;
+    border-bottom: rgb(187, 187, 187) double 3px;
+     position: fixed; 
+    transition: 0.4s;
+    overflow: hidden;
+    top:0;
+    padding:50px 10px;
+}
 
 .navbar ul {
     display: flex;
 }
 
 .navbar a {
-    color: #333;
-    padding: 10px;
-    margin: 0 px;
+    float:left;
+    text-align: center;
+    padding: 12px;
+    margin-right: 5px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
 
+    color: #333;
 }
 
+.menu {
+    display:flex;
+}
+
+
+
 .navbar a:hover {
-    border-bottom: 2px green solid;
-    color: green;
-    border-radius: 15%;
+    border-bottom: 2px #e2c044 solid;
+    margin-bottom: -2px ;
+
+ 
 }
 
 .navbar .flex {  
@@ -90,7 +112,9 @@ img {
 }
 
 .showcase-text {
-    text-align: center;      
+    display: flex;
+    text-align: left;     
+    padding-left: 2em; 
 }
 
 
@@ -105,7 +129,7 @@ img {
   .column {
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+   padding: 0 4px;
   }
   
   .column img {
@@ -130,13 +154,30 @@ img {
     }
   }
 
-  .gallery {    
+.gallery {    
     margin: 0 auto;    
+}
+
+.gallery img {
+    -webkit-filter: brightness(100%);
+}
+.gallery img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
   }
 
-  .gallery a:hover {
-    background-color: red;
-    border-radius: 15px;
+
+  .footer {
+    color: whitesmoke;
+    text-align: center;
+    background-color: #333;
+    min-height: 150px;
   }
 
-
+  .content {
+    margin-top: 250px;
+  }

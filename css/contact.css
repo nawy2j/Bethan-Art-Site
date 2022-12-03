@@ -1,0 +1,21 @@
+
+
+.contact-form {
+    font-family: Ab;
+    width: 450;
+    padding: 10%;
+    border-radius: 15px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.h2  {
+    text-align: center;
+}
+
+#container {
+    margin-top: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
