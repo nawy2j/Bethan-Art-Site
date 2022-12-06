@@ -20,20 +20,23 @@
     <a href="#default" id="logo">Bethan Clegg</a>
     <div id="navbar-right">
       <a  href="index.html">Home</a>
-      <a class="active" href="contact.html">Contact</a>
-      <a href="shop.html">Shop</a>
-      <a href="gallery.html">Gallery</a>
+      <a  href="gallery.html">Gallery</a>
+      <!--<a href="shop.html">Shop</a> -->                   
       <a href="#socials">Social</a>
+      <a class="active" href="contact.html">Contact</a>
      
     </div>
   </div>
 
    
        
-<div id="container grid" >
+<div id="container-grid" >
     <div>
         <h2>Contact Form</h2>
-        <form  class="contact-form" name="contact" netlify>
+        <form  class="contact-form" name="contact" netlify
+          data-netlify-honeypot="bot-field" action="/success/"
+          > 
+          <input class="d-none" name="bot-field">
             <p>
             <label class="form-label">Name <input type="text" class="form-control" name="name" /></label>
             </p>
