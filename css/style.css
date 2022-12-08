@@ -7,9 +7,17 @@
 }
 
 body {
+
+
+    font-family: 'joesfin', sans-serif;
+    color: whitesmoke;
+
     
     color: #333;
+
     line-height: 1.6;
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+    background: url('../assets/pelican.jpg') fixed 22in;
 }
 
 ul {
@@ -26,8 +34,14 @@ a {
 h1 {
     font-weight: 300;
     line-height: 1.2;
+
+    margin: 10px 0;
+
+
+
     margin: 10px 0;    
     font-family: 'Aboreto', cursive;
+
 }
 
 
@@ -118,6 +132,25 @@ img {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+
+
+
+#images {
+   
+}
+
+.jumbotron {
+    background: transparent;
+    color: white;
+
+}
+
+
+.logo {
+    font-family: 'Aboreto', cursive;
+
 }
 
 /*Hot images front page*/
@@ -233,3 +266,4 @@ img {
   .content {
     margin-top: 250px;
   }
+

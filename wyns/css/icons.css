@@ -1,0 +1,22 @@
+@animation social {
+
+}
+
+.socials  ul{
+    list-style-type: none;
+}
+.socials li {
+    display: inline;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    filter: sepia(100%);
+}
+
+
+.socials li:hover {
+    transform: scale(2);
+    filter:brightness(200%);
+    filter:drop-shadow(2px 2px 10px white);
+
+
+}
