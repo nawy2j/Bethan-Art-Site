@@ -120,19 +120,62 @@ img {
     height: 100%;
 }
 
-.showcase-text {
+/*Hot images front page*/
+  .row .hot {
     display: flex;
-    text-align: left;     
-    padding-left: 2em; 
+  }
+
+  .column .hot {
+    flex: 33.33%;
+    padding: 5px;
+    max-width: 25%;    
+  }
+
+  .content{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5% ;   
+    
 }
 
+.beth-face .butterfly .girafee {
+    border-radius: 50px;
+}
 
+.btn-outline-dark {    
+    padding: 16px 32px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;        
+    display: flex;    
+  }
 
-.row {
+  .see-more{
+    margin: 2% 40%;
+  }
+
+  @media screen and (max-width: 100px) {
+    .see-more {
+      width: 1000%;
+
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+      min-width: 50px;
+      max-width: 300px;
+    }
+  }
+
+  .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
   }
+
   
   /* Create four equal columns that sits next to each other */
   .column {
