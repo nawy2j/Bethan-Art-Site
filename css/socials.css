@@ -1,0 +1,36 @@
+  /*SOCIALS*/
+
+  .social-list li {
+    /* Horizontal List */
+    display: inline;   
+}
+
+.socialicon {
+    font-size: 5em;
+    margin-right:0.2em;
+    /* filter:sepia(100%) */
+    text-decoration: none;
+}
+
+#socials a {
+    text-decoration: none;
+    color:#927757;
+}
+
+.social-list a{
+    text-decoration: none;
+}
+#socials ul li a:hover {
+    width:40px;
+    border-radius: 15px;
+    filter:blur(100%);
+    filter: drop-shadow(15px 15px 15px rgb(0 0 0 / 0.5));
+    color:white;
+}
+
+.footer {
+    color: whitesmoke;
+    text-align: center;
+    background-color: #333;
+    min-height: 150px;
+  }

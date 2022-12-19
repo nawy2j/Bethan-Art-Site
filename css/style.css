@@ -53,6 +53,18 @@ img {
     width: 100%;
 }
 
+.front-page {
+    max-width: 1100px;
+    margin: 0 auto;   
+    padding: 5% ;   
+    margin-top: 250px;      
+}
+ 
+.front-page .column {
+  width: 100%;
+  border-radius: 10%;
+}
+ 
 .navbar {
     background: linear-gradient(white, whitesmoke);
     color: #333;
@@ -121,15 +133,20 @@ img {
 }
 
 /*Hot images front page*/
-  .row .hot {
-    display: flex;
-  }
+ 
+.column-front {
+  flex: 25%;
+  max-width: 25%;
+ padding: 0 4px;
+}
 
-  .column .hot {
-    flex: 33.33%;
-    padding: 5px;
-    max-width: 25%;    
-  }
+.column-front img {
+  margin-top: .5em;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 10%;
+  margin-bottom: 2em;
+}  
 
   .content{
     max-width: 1100px;
@@ -139,17 +156,33 @@ img {
     
 }
 
-.beth-face .butterfly .girafee {
-    border-radius: 50px;
+
+.btn__front {
+  display: inline-flex;  
+  justify-content: right;
+  align-items: right;
+  background: gold;
+  text-decoration: none;
+  color: #333;
+  padding: .5em 1.25em;
+  font-size: 20px;
+  border-radius: 100px;  
+  margin: 0 auto;
 }
 
-.btn-outline-dark {    
+.btn__front:hover,
+.btn__front:focus {
+  opacity: .75;
+}
+
+/*.btn {    
     padding: 16px 32px;
     align-items: center;
     justify-content: center;
     text-decoration: none;        
-    display: flex;    
-  }
+    display: flex;  
+    background-color: #333;  
+  }*/
 
   .see-more{
     margin: 2% 40%;
@@ -222,14 +255,8 @@ img {
     transition: all 1s ease;
   }
 
-
-  .footer {
-    color: whitesmoke;
-    text-align: center;
-    background-color: #333;
-    min-height: 150px;
-  }
-
   .content {
     margin-top: 250px;
   }
+
+
