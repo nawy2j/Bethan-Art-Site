@@ -3,12 +3,13 @@
     font-family: 'Aboreto', cursive;
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 70px 10px; /* Large padding which will shrink on scroll (using JS) */
+    padding: 40px 10px; /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
     position: fixed; /* Sticky/fixed navbar */
     width: 100%;
     top: 0; /* At the top */
     z-index: 99;
+    margin-bottom: 1em;
   }
   
   /* Style the navbar links */
@@ -32,7 +33,7 @@
   
   /* Links on mouse-over */
   #navbar a:hover {
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid #927757;
     margin-bottom: -2px;
     color: black;
 
@@ -50,7 +51,7 @@
   }
   
   /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 780px) {
     #navbar {
       padding: 10px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
     }

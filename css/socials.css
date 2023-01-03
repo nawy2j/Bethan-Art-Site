@@ -3,11 +3,17 @@
   .social-list li {
     /* Horizontal List */
     display: inline;   
+    margin: 0;
 }
 
-.socialicon {
-    font-size: 5em;
-    margin-right:0.2em;
+.social-list{
+    padding: 0;
+    margin: 0;
+}
+
+.socialicon {    
+    font-size: 2em;
+   margin: 0 auto;
     /* filter:sepia(100%) */
     text-decoration: none;
 }
@@ -15,6 +21,7 @@
 #socials a {
     text-decoration: none;
     color:#927757;
+    
 }
 
 .social-list a{
@@ -29,6 +36,7 @@
 }
 
 .footer {
+    padding-top: 1.25em;
     color: whitesmoke;
     text-align: center;
     background-color: #333;

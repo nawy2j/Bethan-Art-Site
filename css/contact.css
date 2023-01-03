@@ -2,7 +2,7 @@
 
 .contact-form {
     font-family: Ab;
-    width: 400px;
+    width: 100%;
     padding: 10% 0;
     border-radius: 15px;
     background-color: #333;
@@ -10,22 +10,39 @@
     text-align: center;
     
 }
+.form-label {
+    width: 90%;
+}
 
 
 #container-grid {   
     padding: 15% 0 10% 0;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center;    
+}
+#container-success {   
+    padding-top: 20em;
+    padding-bottom: 10em;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
+
+
+@media screen and (max-width: 780px)  {
+    #container-grid {
+      padding-top: 40%;
+    }
+    
 @media screen and (max-width: 580px)  {
     #container-grid {
-      padding-top: 50%;
+      padding-top: 70%;      
     }
     
 }
